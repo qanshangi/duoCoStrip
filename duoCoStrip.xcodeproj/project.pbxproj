@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0FA54DA298FCF6E00487ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA54D9298FCF6E00487ECC /* AppDelegate.swift */; };
+		E0FA54DC298FCF6E00487ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA54DB298FCF6E00487ECC /* ViewController.swift */; };
+		E0FA54DE298FCF6F00487ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FA54DD298FCF6F00487ECC /* Assets.xcassets */; };
+		E0FA54E1298FCF6F00487ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA54DF298FCF6F00487ECC /* Main.storyboard */; };
+		E0FA54EC298FCF7000487ECC /* duoCoStripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA54EB298FCF7000487ECC /* duoCoStripTests.swift */; };
+		E0FA54F6298FCF7000487ECC /* duoCoStripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA54F5298FCF7000487ECC /* duoCoStripUITests.swift */; };
+		E0FA54F8298FCF7000487ECC /* duoCoStripUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA54F7298FCF7000487ECC /* duoCoStripUITestsLaunchTests.swift */; };
+		E0FA5507298FCFCA00487ECC /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA5504298FCFC900487ECC /* Bluetooth.swift */; };
+		E0FA5508298FCFCA00487ECC /* LED.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA5505298FCFCA00487ECC /* LED.swift */; };
+		E0FA5509298FCFCA00487ECC /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA5506298FCFCA00487ECC /* SidebarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0FA54E8298FCF7000487ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0FA54CE298FCF6E00487ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0FA54D5298FCF6E00487ECC;
+			remoteInfo = duoCoStrip;
+		};
+		E0FA54F2298FCF7000487ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0FA54CE298FCF6E00487ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0FA54D5298FCF6E00487ECC;
+			remoteInfo = duoCoStrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0FA54D6298FCF6E00487ECC /* duoCoStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duoCoStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FA54D9298FCF6E00487ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0FA54DB298FCF6E00487ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0FA54DD298FCF6F00487ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0FA54E0298FCF6F00487ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0FA54E2298FCF6F00487ECC /* duoCoStrip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = duoCoStrip.entitlements; sourceTree = "<group>"; };
+		E0FA54E7298FCF7000487ECC /* duoCoStripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duoCoStripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FA54EB298FCF7000487ECC /* duoCoStripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duoCoStripTests.swift; sourceTree = "<group>"; };
+		E0FA54F1298FCF7000487ECC /* duoCoStripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duoCoStripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FA54F5298FCF7000487ECC /* duoCoStripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duoCoStripUITests.swift; sourceTree = "<group>"; };
+		E0FA54F7298FCF7000487ECC /* duoCoStripUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duoCoStripUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0FA5504298FCFC900487ECC /* Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		E0FA5505298FCFCA00487ECC /* LED.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LED.swift; sourceTree = "<group>"; };
+		E0FA5506298FCFCA00487ECC /* SidebarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0FA54D3298FCF6E00487ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA54E4298FCF7000487ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA54EE298FCF7000487ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0FA54CD298FCF6E00487ECC = {
+			isa = PBXGroup;
+			children = (
+				E0FA54D8298FCF6E00487ECC /* duoCoStrip */,
+				E0FA54EA298FCF7000487ECC /* duoCoStripTests */,
+				E0FA54F4298FCF7000487ECC /* duoCoStripUITests */,
+				E0FA54D7298FCF6E00487ECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0FA54D7298FCF6E00487ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA54D6298FCF6E00487ECC /* duoCoStrip.app */,
+				E0FA54E7298FCF7000487ECC /* duoCoStripTests.xctest */,
+				E0FA54F1298FCF7000487ECC /* duoCoStripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0FA54D8298FCF6E00487ECC /* duoCoStrip */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA5505298FCFCA00487ECC /* LED.swift */,
+				E0FA5504298FCFC900487ECC /* Bluetooth.swift */,
+				E0FA54D9298FCF6E00487ECC /* AppDelegate.swift */,
+				E0FA5506298FCFCA00487ECC /* SidebarViewController.swift */,
+				E0FA54DB298FCF6E00487ECC /* ViewController.swift */,
+				E0FA54DD298FCF6F00487ECC /* Assets.xcassets */,
+				E0FA54DF298FCF6F00487ECC /* Main.storyboard */,
+				E0FA54E2298FCF6F00487ECC /* duoCoStrip.entitlements */,
+			);
+			path = duoCoStrip;
+			sourceTree = "<group>";
+		};
+		E0FA54EA298FCF7000487ECC /* duoCoStripTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA54EB298FCF7000487ECC /* duoCoStripTests.swift */,
+			);
+			path = duoCoStripTests;
+			sourceTree = "<group>";
+		};
+		E0FA54F4298FCF7000487ECC /* duoCoStripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA54F5298FCF7000487ECC /* duoCoStripUITests.swift */,
+				E0FA54F7298FCF7000487ECC /* duoCoStripUITestsLaunchTests.swift */,
+			);
+			path = duoCoStripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0FA54D5298FCF6E00487ECC /* duoCoStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FA54FB298FCF7000487ECC /* Build configuration list for PBXNativeTarget "duoCoStrip" */;
+			buildPhases = (
+				E0FA54D2298FCF6E00487ECC /* Sources */,
+				E0FA54D3298FCF6E00487ECC /* Frameworks */,
+				E0FA54D4298FCF6E00487ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = duoCoStrip;
+			productName = duoCoStrip;
+			productReference = E0FA54D6298FCF6E00487ECC /* duoCoStrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0FA54E6298FCF7000487ECC /* duoCoStripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FA54FE298FCF7000487ECC /* Build configuration list for PBXNativeTarget "duoCoStripTests" */;
+			buildPhases = (
+				E0FA54E3298FCF7000487ECC /* Sources */,
+				E0FA54E4298FCF7000487ECC /* Frameworks */,
+				E0FA54E5298FCF7000487ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FA54E9298FCF7000487ECC /* PBXTargetDependency */,
+			);
+			name = duoCoStripTests;
+			productName = duoCoStripTests;
+			productReference = E0FA54E7298FCF7000487ECC /* duoCoStripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0FA54F0298FCF7000487ECC /* duoCoStripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FA5501298FCF7000487ECC /* Build configuration list for PBXNativeTarget "duoCoStripUITests" */;
+			buildPhases = (
+				E0FA54ED298FCF7000487ECC /* Sources */,
+				E0FA54EE298FCF7000487ECC /* Frameworks */,
+				E0FA54EF298FCF7000487ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FA54F3298FCF7000487ECC /* PBXTargetDependency */,
+			);
+			name = duoCoStripUITests;
+			productName = duoCoStripUITests;
+			productReference = E0FA54F1298FCF7000487ECC /* duoCoStripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0FA54CE298FCF6E00487ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E0FA54D5298FCF6E00487ECC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E0FA54E6298FCF7000487ECC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E0FA54D5298FCF6E00487ECC;
+					};
+					E0FA54F0298FCF7000487ECC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E0FA54D5298FCF6E00487ECC;
+					};
+				};
+			};
+			buildConfigurationList = E0FA54D1298FCF6E00487ECC /* Build configuration list for PBXProject "duoCoStrip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0FA54CD298FCF6E00487ECC;
+			productRefGroup = E0FA54D7298FCF6E00487ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0FA54D5298FCF6E00487ECC /* duoCoStrip */,
+				E0FA54E6298FCF7000487ECC /* duoCoStripTests */,
+				E0FA54F0298FCF7000487ECC /* duoCoStripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0FA54D4298FCF6E00487ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FA54DE298FCF6F00487ECC /* Assets.xcassets in Resources */,
+				E0FA54E1298FCF6F00487ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA54E5298FCF7000487ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA54EF298FCF7000487ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0FA54D2298FCF6E00487ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FA5509298FCFCA00487ECC /* SidebarViewController.swift in Sources */,
+				E0FA54DC298FCF6E00487ECC /* ViewController.swift in Sources */,
+				E0FA5508298FCFCA00487ECC /* LED.swift in Sources */,
+				E0FA5507298FCFCA00487ECC /* Bluetooth.swift in Sources */,
+				E0FA54DA298FCF6E00487ECC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA54E3298FCF7000487ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FA54EC298FCF7000487ECC /* duoCoStripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA54ED298FCF7000487ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FA54F8298FCF7000487ECC /* duoCoStripUITestsLaunchTests.swift in Sources */,
+				E0FA54F6298FCF7000487ECC /* duoCoStripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0FA54E9298FCF7000487ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0FA54D5298FCF6E00487ECC /* duoCoStrip */;
+			targetProxy = E0FA54E8298FCF7000487ECC /* PBXContainerItemProxy */;
+		};
+		E0FA54F3298FCF7000487ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0FA54D5298FCF6E00487ECC /* duoCoStrip */;
+			targetProxy = E0FA54F2298FCF7000487ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0FA54DF298FCF6F00487ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FA54E0298FCF6F00487ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0FA54F9298FCF7000487ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0FA54FA298FCF7000487ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E0FA54FC298FCF7000487ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = duoCoStrip/duoCoStrip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = content.duoCoStrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0FA54FD298FCF7000487ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = duoCoStrip/duoCoStrip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = content.duoCoStrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0FA54FF298FCF7000487ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = content.duoCoStripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duoCoStrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/duoCoStrip";
+			};
+			name = Debug;
+		};
+		E0FA5500298FCF7000487ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = content.duoCoStripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duoCoStrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/duoCoStrip";
+			};
+			name = Release;
+		};
+		E0FA5502298FCF7000487ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = content.duoCoStripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = duoCoStrip;
+			};
+			name = Debug;
+		};
+		E0FA5503298FCF7000487ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = content.duoCoStripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = duoCoStrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0FA54D1298FCF6E00487ECC /* Build configuration list for PBXProject "duoCoStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FA54F9298FCF7000487ECC /* Debug */,
+				E0FA54FA298FCF7000487ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FA54FB298FCF7000487ECC /* Build configuration list for PBXNativeTarget "duoCoStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FA54FC298FCF7000487ECC /* Debug */,
+				E0FA54FD298FCF7000487ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FA54FE298FCF7000487ECC /* Build configuration list for PBXNativeTarget "duoCoStripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FA54FF298FCF7000487ECC /* Debug */,
+				E0FA5500298FCF7000487ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FA5501298FCF7000487ECC /* Build configuration list for PBXNativeTarget "duoCoStripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FA5502298FCF7000487ECC /* Debug */,
+				E0FA5503298FCF7000487ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0FA54CE298FCF6E00487ECC /* Project object */;
+}
